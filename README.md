@@ -1,6 +1,7 @@
 # Bengali OCR Correction Tool
 
-A Python tool that automatically corrects corrupted Bengali text from OCR output using dictionary matching, pattern rules, and fuzzy string matching. As the input maay contain larger text corpus, LLM based is not implemented because it will become more costly.
+A Python tool that automatically corrects corrupted Bengali text from OCR output using dictionary matching, pattern rules, and fuzzy string matching. As the input maay contain larger text corpus, LLM based is not implemented because it will become more costly. This problem is solved for both cases where we have a file with corrupted words per line (e.g. োনো, িদ্যু, াবিক্রিয়া ) or we have a paragraph that contains some corrupted words (e.g. ্যাসীয পদাথ ুব গুরুত্বপূর্ণ। োনো  িদ্যু াবিক্রিয়া ঘটলে উত্তপ সৃষ্টি হয়।)
+
 
 ---
 
