@@ -13,7 +13,6 @@ bengali-ocr-corrector/
 ├── solution.ipynb        # Main implementation (Jupyter notebook)
 ├── input.txt             # Input: corrupted words & paragraph
 ├── output.txt            # Output: corrections & statistics
-├── requirements.txt      # Dependencies (rapidfuzz)
 └── README.md            # Documentation
 ```
 
